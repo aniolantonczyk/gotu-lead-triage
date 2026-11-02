@@ -4,16 +4,22 @@ A small working prototype of an AI lead triage step for a two-sided dental staff
 
 All data is synthetic. Nothing here uses real company data.
 
-## What is real and what is not
+## Results
 
-| Piece | Status |
-|---|---|
-| Rules baseline classifier | Built and run. Scores 100% on the 20 easy leads (tuned on them) and 33% audience / 25% stage on 12 hard leads. |
-| Claude classifier (`--mode claude`) | Written, not yet run. It needs an API key. Run it and record the real numbers before claiming any result. |
-| Decision log (JSONL) | Built and run. |
-| Eval script and report | Built and run. |
-| HubSpot push and property setup | Written against HubSpot's CRM v3 API, not yet run. Needs a free HubSpot account and a Private App token. |
-| Lifecycle stage rubric | My assumption, not GoTu's. Confirm the real stages and rules before relying on it. |
+Run on 2026-11-02 against 32 hand-labeled synthetic leads.
+
+| Run | Audience acc. | Stage acc. | Flagged for review | Parse failures |
+|---|---|---|---|---|
+| Keyword baseline, easy set (20) | 100% | 100% | 30% | 0 |
+| Keyword baseline, hard set (12) | 33% | 25% | 17% | 0 |
+| Claude, easy set (20) | 100% | 100% | 10% | 0 |
+| Claude, hard set (12) | 100% | 92% | 0% | 0 |
+
+The baseline is what makes these numbers mean something. The keyword rules were tuned on the easy set, which is why they score 100% there and collapse on the hard set.
+
+The single Claude miss is the most useful finding. On "We are hiring hygienists for our office" it returned marketing qualified lead where my label said lead. Reading the prompt back, an office "that states a concrete staffing need (a role, a date, coverage, a new opening)" qualifies, and that lead names a role. The model followed the rubric and my label contradicted it. Its confidence there was 0.70, the lowest in the run, so its uncertainty landed on the genuinely ambiguous case. An accuracy number means nothing until someone audits the label set.
+
+Built with Claude Code as an exercise in AI-assisted marketing operations.
 
 ## Setup
 
