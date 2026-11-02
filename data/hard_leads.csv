@@ -1,0 +1,13 @@
+id,email,source,job_title,company,license_number,form_text,true_audience,true_stage
+21,lead21@example.test,website_form,Dentist,Gables Dental,,I need someone to cover my Saturdays.,dental_office,marketingqualifiedlead
+22,lead22@example.test,website_form,Recruiter,Nationwide Dental Placements,,We place hygienists nationwide and want to list our candidates.,other,subscriber
+23,lead23@example.test,website_form,Student,State University MBA,,MBA student researching dental staffing for a class project.,other,subscriber
+24,lead24@example.test,meta_ad,,,FL-RDH-33310,Soy higienista dental con licencia en Florida. Busco turnos.,dental_professional,marketingqualifiedlead
+25,lead25@example.test,linkedin_ad,Sales Manager,ClearView Loupes,,We make ergonomic loupes for hygienists. Can we sponsor you?,other,subscriber
+26,lead26@example.test,website_form,Executive Assistant,Orion Dental Partners,,Looking to learn how you could help staff our clinics.,dental_office,lead
+27,lead27@example.test,job_board,Dental Hygienist,,,RDH. FL license pending.,dental_professional,lead
+28,lead28@example.test,website_form,Owner,Tamarac Pediatric Dentistry,,Need a hygienist next Tuesday. Can you help?,dental_office,marketingqualifiedlead
+29,lead29@example.test,meta_ad,Dentist,,,Active FL license DDS 30211. Looking for shifts in Dade.,dental_professional,marketingqualifiedlead
+30,lead30@example.test,website_form,Practice Administrator,Davie Dental Care,,We need a dentist 3 days a week starting in December.,dental_office,marketingqualifiedlead
+31,lead31@example.test,meta_ad,,,,I need a dentist for a toothache. Can you book me?,other,subscriber
+32,lead32@example.test,website_form,Dental Hygienist,Smile Dental,,We are hiring hygienists for our office.,dental_office,lead

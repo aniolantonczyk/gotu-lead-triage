@@ -1,0 +1,21 @@
+id,email,source,job_title,company,license_number,form_text,true_audience,true_stage
+1,lead01@example.test,website_form,Dental Hygienist,,FL-RDH-10021,Looking for per diem hygiene shifts around Miami. Licensed in FL.,dental_professional,marketingqualifiedlead
+2,lead02@example.test,job_board,DDS,,FL-DDS-30455,Dentist open to weekend coverage in Broward.,dental_professional,marketingqualifiedlead
+3,lead03@example.test,website_form,Dental Assistant,,,Dental assistant with 3 years experience. Want temp work.,dental_professional,lead
+4,lead04@example.test,linkedin_ad,Office Manager,Bright Smiles Dental,,Our practice needs a hygienist 2 days a week starting next month.,dental_office,marketingqualifiedlead
+5,lead05@example.test,website_form,Practice Administrator,Palm Family Dentistry,,Just curious how pricing works for offices.,dental_office,lead
+6,lead06@example.test,meta_ad,Registered Dental Hygienist,,FL-RDH-20877,RDH here. Saw your ad. How do I sign up?,dental_professional,marketingqualifiedlead
+7,lead07@example.test,website_form,Operations Director,Coastal Dental Group,,Interested in your platform for our 4 locations. We need coverage for call-outs.,dental_office,marketingqualifiedlead
+8,lead08@example.test,job_board,Student,UM Dental School,,Dental school student graduating in May. Looking ahead.,dental_professional,lead
+9,lead09@example.test,website_form,Sales Rep,DentalSupplyCo,,I sell dental supplies and want to partner.,other,subscriber
+10,lead10@example.test,website_form,,,,asdf test test,other,subscriber
+11,lead11@example.test,direct_mail,Owner Dentist,Reyes Dental,FL-DDS-40112,Got your postcard. I own a practice and want to also pick up shifts elsewhere.,dental_professional,marketingqualifiedlead
+12,lead12@example.test,meta_ad,,,,Looking for a job,other,subscriber
+13,lead13@example.test,website_form,Dentist Owner,Sunrise Smile Studio,,We are a new practice opening in January and need a full temp team.,dental_office,marketingqualifiedlead
+14,lead14@example.test,linkedin_ad,Dental Hygienist,,NY-RDH-55120,Hygienist licensed in NY and FL. Available evenings.,dental_professional,marketingqualifiedlead
+15,lead15@example.test,website_form,Recruiter,TalentBridge Staffing,,Recruiter at a staffing agency. Want to resell your talent.,other,subscriber
+16,lead16@example.test,job_board,Front Desk Coordinator,,,Dental front desk. Looking for temp admin work.,other,subscriber
+17,lead17@example.test,meta_ad,Dentist,,FL-DDS-30990,DDS with 10 years experience. Want a flexible schedule. License attached.,dental_professional,marketingqualifiedlead
+18,lead18@example.test,website_form,Office Manager,Lakeview Dental,,Do you cover Orlando? We have an urgent opening Monday.,dental_office,marketingqualifiedlead
+19,lead19@example.test,website_form,Dental Hygienist,,,hygienist,dental_professional,lead
+20,lead20@example.test,website_form,Marketing Manager,AdMedia Inc,,Interested in advertising on your platform.,other,subscriber
